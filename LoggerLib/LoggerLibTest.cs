@@ -22,7 +22,6 @@ namespace LoggerLib
                 Thread.Sleep(10);
             }
             Thread.Sleep(2000);
-            //i couldnt fix the problem of writing only half of the messeges
             logger.Terminate();
         }
     }
